@@ -10,6 +10,11 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+
+  body{
+    margin: 0px;
+  }
+
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
     section {
@@ -43,15 +48,40 @@
           
     }
 
+    .pink-gradient {
+
+      background-image: linear-gradient(to right, hsl(322, 100%, 66%), hsl(265, 100%, 66%));
+      height: 1300px;
+      width: 1600px;
+      margin-left: 0px;
+      height: 1300px;
+    border-radius: 9%;
+    position: absolute;
+    top: -490px;
+    left: 570px;
+    transform: rotate(48deg);
+    z-index: -1;
+
+    }
+
+    button{
+      padding: 7px;
+      background-color: green;
+      border-radius: 7px;
+    }
+
   </style>
 </head>
 <body>
+  <section class="pink-gradient"></section>
+  <section></section>
+  <section></section>
   <header>
 <div class="logo"><img src="images/logo.svg"></div>
 
   <aside class="try"><button class="try">Try It Free</button></aside>
 </header>
-
+<main>
 <section class ="Mockups">
   <img src="images/illustration-mockups.svg">
   </section>
@@ -61,9 +91,8 @@
   Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
   Create connections with your users as you engage in genuine discussion. 
 
- <button> Get Started For Free</button>
+ <button class="button button--success"> Get Started For Free</button>
 </section>
-
   <section class="conversation"> <h3>Flowing Conversations</h3>
 
   You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
@@ -114,5 +143,6 @@
     </p>
     </section>
   </footer>
+</main>
 </body>
 </html>
