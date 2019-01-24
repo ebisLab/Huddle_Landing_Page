@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <title>Frontend Mentor | Huddle landing page with coded decorative elements</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -16,7 +17,15 @@
     background: #f7f9fd;
   }
 
-    .attribution { font-size: 11px; text-align: center; }
+  main {
+    color: #a3a8af;
+    
+    font-size: 17.5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+  }
+
+  .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
     section {
     width: 60%;
@@ -44,55 +53,43 @@
     margin-bottom:5%;
     padding: 4px;
     background-color: #fff;
+    padding-bottom: 3%;
     }
 
-    #shadow {
+#shadow {
        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    }
-
-    .trycard {
-          
-    }
-
-    .pink-gradient {
-
-      background-image: linear-gradient(to right, hsl(322, 100%, 66%), hsl(265, 100%, 66%));
-      height: 1300px;
-      width: 1600px;
-      margin-left: 0px;
-      height: 1300px;
-    border-radius: 9%;
-    position: absolute;
-    top: -490px;
-    left: 570px;
-    transform: rotate(48deg);
-    z-index: -1;
-
-    }
-
-    .white-gradient {
-      background-color: white;
-      position: absolute;
-          height: 1400px;
-    width: 900px;
-    border-radius: 9%;
-    top: 50px;
-    left: 330px;
-    transform: rotate(65deg);
-    z-index: -1;
-    margin-left: 0px;
-    }
-
-    .pink-button {
-      margin:1%;
     }
 
     button{
       padding: 7px;
-      background-color: green;
       border-radius: 7px;
       margin:5%;
     }
+
+.text-side {
+  float: right;
+  width: 43%;
+    margin-left: 26px;
+    display: block;
+}
+
+.illustration {
+
+    width: 45%;
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+h2, h3 {
+  font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+    
+    color: #394251;
+}
 
   </style>
 </head>
@@ -108,7 +105,7 @@
 </header>
 <main>
 <section class ="mockups">
-  <img src="images/illustration-mockups.svg" style="width: 100%">
+  <img src="images/illustration-mockups.svg" style="width: 90%">
   </section>
 
   <section class="Intro"> <h2>Build The Community Your Fans Will Love</h2>
@@ -119,9 +116,10 @@
  <button class="pink-button"> Get Started For Free</button>
 </section>
 
-<section class="illustration">
-  <img src="images/illustration-your-users.svg"
-</section>
+<div>
+
+
+<aside class="text-side">
   <section class="conversation"> <h3>Flowing Conversations</h3>
 
   You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
@@ -136,6 +134,13 @@
 
   It takes no time at all to integrate Huddle with your app's authentication solution. This means, once 
   signed in to your app, your users can start chatting immediately.</section>
+</aside>""
+
+ <section class="illustration">
+  <img src="images/illustration-your-users.svg" style="width: 100%;">
+</section>
+
+</div>
 
 <section class="tryfree" id="shadow">
   <div class="trycard"><h2>Try It Free</h2>
