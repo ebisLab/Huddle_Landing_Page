@@ -20,12 +20,6 @@ You will find all the required assets in the `/images` folder. The assets are al
 
 There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
 
-## Building your project
-
-Practice using version control by creating your own Github repository for this challenge. This has the added benefit of being able to publish it on the `gh-pages` branch at the end. Find out more about Github Pages here: [https://pages.github.com/](https://pages.github.com/).
-
-Also, you could try building this project in a team. This is a great way to practice collaborative coding.
-
 ## Suggested workflow
 
 Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
@@ -48,4 +42,4 @@ Feedback is always welcome, so if you have any on this challenge please email me
 
 This challenge is completely free. Please share it with anyone who will find it useful to practice on.
 
-**Have fun building!** 🚀
+**Thanks for looking at the Project!** 🚀
